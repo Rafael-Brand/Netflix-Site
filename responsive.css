@@ -1,0 +1,132 @@
+/* responsive.css */
+
+/* Regras para telas com largura máxima de 1000 pixels */
+@media (min-width: 344px) and (max-width: 1000px) {
+    header {
+        flex-direction: column;
+    }
+
+    header img {
+        width: 8rem;
+        height: 3.5rem;
+        margin-bottom: 10px;
+    }
+
+    header button {
+        width: auto;
+        padding: 10px 20px;
+    }
+
+    #container-principal {
+        margin-top: 100px;
+        
+    }
+
+    .titulo-principal {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .oferta, .mini-oferta {
+        font-size: 1.2em;
+        
+    }
+
+    #input {
+        width: 80%;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .botao-principal {
+        width: 50%;
+        align-items: center;
+        margin-left: 100px;
+    }
+
+    #planos-mensais {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .planos-1, .planos-2, .planos-3 {
+        width: 70%;
+        margin-left: 0;
+        margin-right: 50px;
+    }
+
+    #titulo-secundario {
+        margin-right: 50px;
+    }
+
+    #principal-assinatura {
+        padding: 150px 0px 50px 0px;
+       
+    }
+
+    #sobre-assinatura {
+        width: 80%;
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    #titulo-assinatura, #texto-assinatura {
+        padding-left: 0;
+    }
+
+    .motivos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .motivo {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    #book {
+        display: none;
+    }
+
+    #mao {
+        display: none;
+    }
+
+    #criança {
+        display: none;
+    }
+
+    #celular {
+        display: none;
+    }
+
+    footer {
+        padding: 80px 20px 15px 20px;
+    }
+
+    #input-footer {
+        width: 70%;
+    }
+
+    #botao-footer {
+        width: 28%;
+    }
+
+    #acessos {
+        padding: 30px 0px;
+    }
+
+    #acessos-2 {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .perguntas {
+        text-align: center;
+        padding: 5px 0;
+    }
+
+    #netflix-logo {
+        display: none;
+    }
+}

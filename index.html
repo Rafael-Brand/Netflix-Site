@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!--  ICONES  -->
+    <script src="https://kit.fontawesome.com/3e14733e99.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <header>
+        <img src="src/img/net-logo.png" alt="Logo da Neflix">
+        <button>Entrar</button>
+    </header>
+
+    <main>
+        <div id="container-principal">
+            <h1 class="titulo-principal">Filmes,séries e</br> muito mais,sem</br> limites</h1>
+            <p class="oferta">A partir de R$18,90.Cancele quando quiser.</p>
+            <p class="mini-oferta">Quer assistir?Informe seu email para criar ou reiniciar sua assinatura.</p>
+            <input 
+            placeholder="Email" 
+            minlength="5" 
+            maxlength="50" 
+            type="email"
+             id="input" 
+            name="email" 
+            ata-uia="field-email" 
+            required
+            >
+            <button class="botao-principal">Vamos Lá</button>
+        </div>
+    </main>
+
+    
+    <section>
+    <h3 class="titulo-planos">Um plano para atender seu estilo</h3>
+    <div id="planos-mensais">
+    <button class="planos-1">
+        <h2>PREMIUM</h2>
+        <p>Uma experiência cinematográfica com a melhor qualidade de som e imagem</p>
+        <p class="preço"> R$55,90/mês</p>
+    </button>
+
+    <button class="planos-2">
+        <h2>PADRÃO</h2>
+        <p>Toda a diversão, mias os dowloads, para você aproveitar onde quiser.</p>
+        <p class="preço">R$39,90/mês</p>
+    </button>
+
+    <button class="planos-3">
+        <h2>PADRÃO COM ANÚNCIOS</h2>
+        <p>A opção mais econômica para curitr a Netflix com alguns intervalos para anúncios.</p>
+        <p class="preço">R$18,90/mês</p>
+    </button>
+    </div>
+    </section>
+
+    <div id="principal-assinatura">
+        <h2 id="titulo-secundario">Aproveite ainda mais sua assinatura</h2>
+        <div id="sobre-assinatura">  
+            <h3 id="titulo-assinatura">Jogos para celulares e tablets agora inclusos em todos os planos</h3>
+            <p id="texto-assinatura">Sem anúncios, tarifas adicionais nem compras no aplicativo. Divirta-se com acesso ilimitado a um catálogo cada vez maior de jogos exclusivos e populares.</p> 
+        </div>
+    </div>
+
+
+    <section id="area-motivos">
+        <h2 id="titulo-terciario">Mais motivos para assinar</h2>
+
+        <div class="motivos">
+            <h3 class="motivo">Histórias sob </br>medida para o </br>seu gosto</h3>
+            <nav id="book"><i class="fa-solid fa-book"></i></nav>
+            <h3 class="motivo">Cancele ou</br> troque de plano</br> quando quiser</h3>
+            <nav id="mao"><i class="fa-solid fa-hand-holding-dollar"></i></nav>
+            <h3 class="motivo">Uma </br>seção só para</br> crianças</h3>
+            <nav id="criança"><i class="fa-solid fa-child"></i></nav>
+            <h3 class="motivo">Para celular,</br> tablet, </br>laptop ou TV</h3>
+            <nav id="celular"><i class="fa-solid fa-mobile-screen-button"></i></nav>
+        </div>
+    </section>
+
+
+    <footer>
+        <p id="titulo-perguntas">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+        <div id="input-area">
+        <input 
+            placeholder="Email" 
+            minlength="5" 
+            maxlength="50" 
+            type="email"
+             id="input-footer" 
+            name="email" 
+            ata-uia="field-email" 
+            required
+            >
+            <button id="botao-footer">Vamos Lá</button>
+        </div>
+            <p>Dúvidas? Ligue para <a>0800 321 7654</a></p>
+    </footer>
+
+    <ul id="acessos">
+       
+        <li role="list" class="perguntas"><a>Relações com investidores</a></li>
+        <li  role="list" class="perguntas">Formas de assistir</li>
+        <li role="list" class="perguntas">Informações corporativas</li>
+        <li role="list" class="perguntas">Só na Netflix</li>
+        <li role="list" class="perguntas"> <a>Central de Ajuda</a></li>
+        <li role="list" class="perguntas">Carreiras</li>  
+        <li role="list" class="perguntas">Termos de Uso</li>
+        <li role="list" class="perguntas">Entre em contato</li>
+        <ul id="acessos-2"> 
+        <li role="list" class="perguntas">Conta</li>
+        <li role="list" class="perguntas">Resgatar cartão pré-pago</li>
+        <li role="list" class="perguntas">Privacidade</li>
+        <li role="list" class="perguntas">Teste de velocidade</li>
+        <li role="list" class="perguntas">Media Center</li>
+        <li role="list" class="perguntas">Comprar cartão pré-pago</li>
+        <li role="list" class="perguntas">Preferências de cookies</li>
+        <li role="list"  class="perguntas">Avisos legais</li>
+    </ul>
+    </ul>
+     
+    <img src="src/img/net-logo.png" alt="Logo da Neflix" id="netflix-logo">
+    <script src="index.js"></script>
+</body>
+</html>
